@@ -1,0 +1,13 @@
+fibbonacci<-function(y){if(y==0|y==1)
+  return(1)
+  F0<-1;F1<-1;i<-2
+  repeat{
+    s<-F0+F1
+    if(i==y)
+      return(s)
+    F0<-F1
+    F1<-s
+    i<-i+1}}
+fibbonacci(8)
+fibbonacci(0)
+fibbonacci(1000)
