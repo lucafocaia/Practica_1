@@ -22,3 +22,5 @@ x=20-b
 
 ###Imprimir un cartel
 print(paste("El alumno",Nombre,Apellido,"se inscribio como alumno de Exactas en el puesto",z,"en el anio",y,"y debe aprobar",x,"materias para obtener el titulo de grado"))
+
+###############################################################################
